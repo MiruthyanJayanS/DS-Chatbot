@@ -1,0 +1,6 @@
+*.env
+*.log
+*.pyc
+/user_data.json/
+/ds-chatbot/
+```
