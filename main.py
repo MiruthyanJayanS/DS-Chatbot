@@ -15,7 +15,7 @@ load_dotenv()
 
 # Load API key
 def get_api_key():
-    api_key = os.getenv('API_KEY')
+    api_key = os.getenv('API_KEY') or st.secrets["API_KEY"]
     if not api_key:
         st.error("API Key not found! Please set it in the .env file.")
         st.stop()
