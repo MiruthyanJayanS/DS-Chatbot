@@ -77,6 +77,16 @@ The `sql_handler.py` script ensures the **message_store** table is created and o
 
 ---
 
+## Hosted Application
+Access the chatbot at: **[Data Science Chatbot](https://ds-chatbot-tutor.streamlit.app/)**
+
+---
+
+## Video Demo
+
+
+---
+
 ## Future Improvements
 - Add support for more AI models.
 - Enhance UI/UX with additional customization.
