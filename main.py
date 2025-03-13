@@ -146,7 +146,6 @@ def sidebar():
                     st.session_state["user_name"] = user_name
                     st.session_state["user_id"] = user_id
                     
-                    # 💡 FIX: Reset previous messages and load correct history
                     st.session_state["messages"] = get_session_message_history_from_db(user_id).messages
                     
                     st.success(f"Welcome back, {user_name}! Resuming session.")
@@ -163,7 +162,6 @@ if "user_name" in st.session_state and "user_id" in st.session_state and st.sess
 
     st.chat_message("ai", avatar="🤖").write(f"Hello, {user_name}! I am a Data Science Chatbot. How can I assist you today?")
 
-    # 💡 FIX: Correctly fetch and display previous chat messages
     if "messages" not in st.session_state or not st.session_state["messages"]:
         st.session_state["messages"] = get_session_message_history_from_db(user_id).messages
 
