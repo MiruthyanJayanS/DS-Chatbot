@@ -83,7 +83,9 @@ Access the chatbot at: **[Data Science Chatbot](https://ds-chatbot-tutor.streaml
 ---
 
 ## Video Demo
-E:\Project\Innomatics\Data_Science_Tutor\Assets\DS-Chatbot-Demo.mp4
+https://github.com/user-attachments/assets/4789deb2-659b-436d-9f3a-5e40e87ca5a0
+
+
 
 ---
 
